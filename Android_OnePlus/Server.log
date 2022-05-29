@@ -1,0 +1,478 @@
+2022-05-26 09:37:18:176 [Appium] Welcome to Appium v1.22.3
+2022-05-26 09:37:18:177 [Appium] Non-default server args:
+2022-05-26 09:37:18:177 [Appium]   port: 13302
+2022-05-26 09:37:18:177 [Appium]   sessionOverride: true
+2022-05-26 09:37:18:177 [Appium]   logFile: C:\Users\prani\Projects\AppiumBDDFramework-Junit\Android_OnePlus\Server.log
+2022-05-26 09:37:18:203 [Appium] Appium REST http interface listener started on 0.0.0.0:13302
+2022-05-26 09:37:18:322 [HTTP] --> GET /wd/hub/status
+2022-05-26 09:37:18:323 [HTTP] {}
+2022-05-26 09:37:18:324 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-05-26 09:37:18:325 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-05-26 09:37:18:332 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2022-05-26 09:37:18:333 [HTTP] 
+2022-05-26 09:37:18:337 [HTTP] --> GET /wd/hub/status
+2022-05-26 09:37:18:337 [HTTP] {}
+2022-05-26 09:37:18:338 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-05-26 09:37:18:338 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-05-26 09:37:18:339 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2022-05-26 09:37:18:339 [HTTP] 
+2022-05-26 09:37:18:872 [HTTP] Request idempotency key: 9e6cd178-d522-42ad-adea-ba20787a013a
+2022-05-26 09:37:18:891 [HTTP] --> POST /wd/hub/session
+2022-05-26 09:37:18:891 [HTTP] {"desiredCapabilities":{"app":"C:\\Users\\prani\\Projects\\AppiumBDDFramework-Junit\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"OnePlus","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\prani\\Projects\\AppiumBDDFramework-Junit\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"OnePlus","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}}
+2022-05-26 09:37:18:892 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\prani\\Projects\\AppiumBDDFramework-Junit\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"OnePlus","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"C:\\Users\\prani\\Projects\\AppiumBDDFramework-Junit\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"OnePlus","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}]
+2022-05-26 09:37:18:896 [BaseDriver] Event 'newSessionRequested' logged at 1653557838892 (15:07:18 GMT+0530 (India Standard Time))
+2022-05-26 09:37:18:899 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2022-05-26 09:37:18:899 [BaseDriver]   chromeDriverPort
+2022-05-26 09:37:19:261 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-05-26 09:37:19:262 [Appium] There are no active sessions for cleanup
+2022-05-26 09:37:19:263 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-05-26 09:37:19:264 [BaseDriver] Creating session with W3C capabilities: {
+2022-05-26 09:37:19:264 [BaseDriver]   "alwaysMatch": {
+2022-05-26 09:37:19:264 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2022-05-26 09:37:19:264 [BaseDriver]     "platformName": "android",
+2022-05-26 09:37:19:264 [BaseDriver]     "appium:app": "C:\\Users\\prani\\Projects\\AppiumBDDFramework-Junit\\src\\test\\resources\\apps\\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk",
+2022-05-26 09:37:19:264 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2022-05-26 09:37:19:264 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2022-05-26 09:37:19:264 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-05-26 09:37:19:264 [BaseDriver]     "appium:deviceName": "OnePlus",
+2022-05-26 09:37:19:264 [BaseDriver]     "appium:systemPort": "10000",
+2022-05-26 09:37:19:264 [BaseDriver]     "appium:udid": "emulator-5554"
+2022-05-26 09:37:19:264 [BaseDriver]   },
+2022-05-26 09:37:19:265 [BaseDriver]   "firstMatch": [
+2022-05-26 09:37:19:265 [BaseDriver]     {}
+2022-05-26 09:37:19:265 [BaseDriver]   ]
+2022-05-26 09:37:19:265 [BaseDriver] }
+2022-05-26 09:37:19:266 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2022-05-26 09:37:19:267 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2022-05-26 09:37:19:269 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2022-05-26 09:37:19:269 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2022-05-26 09:37:19:271 [BaseDriver] Session created with session id: 1906616e-0701-401b-8256-0ab0e1d80865
+2022-05-26 09:37:19:274 [BaseDriver] Using local app 'C:\Users\prani\Projects\AppiumBDDFramework-Junit\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2022-05-26 09:37:19:274 [UiAutomator2] Checking whether app is actually present
+2022-05-26 09:37:19:284 [ADB] Found 1 'build-tools' folders under 'C:\Users\prani\AppData\Local\Android\Sdk' (newest first):
+2022-05-26 09:37:19:284 [ADB]     C:/Users/prani/AppData/Local/Android/Sdk/build-tools/31.0.0
+2022-05-26 09:37:19:285 [ADB] Using 'adb.exe' from 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2022-05-26 09:37:19:285 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2022-05-26 09:37:21:609 [AndroidDriver] Retrieving device list
+2022-05-26 09:37:21:610 [ADB] Trying to find a connected android device
+2022-05-26 09:37:21:610 [ADB] Getting connected devices
+2022-05-26 09:37:21:629 [ADB] No connected devices have been detected
+2022-05-26 09:37:21:629 [ADB] Could not find online devices
+2022-05-26 09:37:21:629 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:21:629 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:21:849 [ADB] Getting connected devices
+2022-05-26 09:37:21:869 [ADB] No connected devices have been detected
+2022-05-26 09:37:21:869 [ADB] Could not find online devices
+2022-05-26 09:37:21:869 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:21:869 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:22:096 [ADB] Getting connected devices
+2022-05-26 09:37:22:117 [ADB] No connected devices have been detected
+2022-05-26 09:37:22:117 [ADB] Could not find online devices
+2022-05-26 09:37:22:117 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:22:118 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:22:344 [ADB] Getting connected devices
+2022-05-26 09:37:22:362 [ADB] No connected devices have been detected
+2022-05-26 09:37:22:362 [ADB] Could not find online devices
+2022-05-26 09:37:22:362 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:22:362 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:22:589 [ADB] Getting connected devices
+2022-05-26 09:37:22:609 [ADB] No connected devices have been detected
+2022-05-26 09:37:22:610 [ADB] Could not find online devices
+2022-05-26 09:37:22:610 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:22:610 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:22:839 [ADB] Getting connected devices
+2022-05-26 09:37:22:860 [ADB] No connected devices have been detected
+2022-05-26 09:37:22:860 [ADB] Could not find online devices
+2022-05-26 09:37:22:860 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:22:860 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:23:086 [ADB] Getting connected devices
+2022-05-26 09:37:23:105 [ADB] No connected devices have been detected
+2022-05-26 09:37:23:105 [ADB] Could not find online devices
+2022-05-26 09:37:23:105 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:23:105 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:23:332 [ADB] Getting connected devices
+2022-05-26 09:37:23:351 [ADB] No connected devices have been detected
+2022-05-26 09:37:23:351 [ADB] Could not find online devices
+2022-05-26 09:37:23:351 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:23:351 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:23:579 [ADB] Getting connected devices
+2022-05-26 09:37:23:598 [ADB] No connected devices have been detected
+2022-05-26 09:37:23:599 [ADB] Could not find online devices
+2022-05-26 09:37:23:599 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:23:599 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:23:826 [ADB] Getting connected devices
+2022-05-26 09:37:23:845 [ADB] No connected devices have been detected
+2022-05-26 09:37:23:845 [ADB] Could not find online devices
+2022-05-26 09:37:23:845 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:23:845 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:24:075 [ADB] Getting connected devices
+2022-05-26 09:37:24:095 [ADB] No connected devices have been detected
+2022-05-26 09:37:24:095 [ADB] Could not find online devices
+2022-05-26 09:37:24:095 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:24:095 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:24:322 [ADB] Getting connected devices
+2022-05-26 09:37:24:345 [ADB] No connected devices have been detected
+2022-05-26 09:37:24:345 [ADB] Could not find online devices
+2022-05-26 09:37:24:345 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:24:345 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:24:570 [ADB] Getting connected devices
+2022-05-26 09:37:24:589 [ADB] No connected devices have been detected
+2022-05-26 09:37:24:589 [ADB] Could not find online devices
+2022-05-26 09:37:24:589 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:24:589 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:24:815 [ADB] Getting connected devices
+2022-05-26 09:37:24:835 [ADB] No connected devices have been detected
+2022-05-26 09:37:24:835 [ADB] Could not find online devices
+2022-05-26 09:37:24:835 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:24:835 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:25:093 [ADB] Getting connected devices
+2022-05-26 09:37:25:114 [ADB] No connected devices have been detected
+2022-05-26 09:37:25:114 [ADB] Could not find online devices
+2022-05-26 09:37:25:114 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:25:114 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:25:369 [ADB] Getting connected devices
+2022-05-26 09:37:25:391 [ADB] No connected devices have been detected
+2022-05-26 09:37:25:391 [ADB] Could not find online devices
+2022-05-26 09:37:25:391 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:25:391 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:25:644 [ADB] Getting connected devices
+2022-05-26 09:37:25:664 [ADB] No connected devices have been detected
+2022-05-26 09:37:25:664 [ADB] Could not find online devices
+2022-05-26 09:37:25:665 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:25:665 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:25:891 [ADB] Getting connected devices
+2022-05-26 09:37:25:912 [ADB] No connected devices have been detected
+2022-05-26 09:37:25:912 [ADB] Could not find online devices
+2022-05-26 09:37:25:912 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:25:913 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:26:139 [ADB] Getting connected devices
+2022-05-26 09:37:26:160 [ADB] No connected devices have been detected
+2022-05-26 09:37:26:160 [ADB] Could not find online devices
+2022-05-26 09:37:26:160 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:26:160 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:26:387 [ADB] Getting connected devices
+2022-05-26 09:37:26:408 [ADB] No connected devices have been detected
+2022-05-26 09:37:26:408 [ADB] Could not find online devices
+2022-05-26 09:37:26:409 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:26:409 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:26:634 [ADB] Getting connected devices
+2022-05-26 09:37:26:654 [ADB] No connected devices have been detected
+2022-05-26 09:37:26:654 [ADB] Could not find online devices
+2022-05-26 09:37:26:654 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:26:654 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:26:883 [ADB] Getting connected devices
+2022-05-26 09:37:26:912 [ADB] No connected devices have been detected
+2022-05-26 09:37:26:913 [ADB] Could not find online devices
+2022-05-26 09:37:26:913 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:26:913 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:27:141 [ADB] Getting connected devices
+2022-05-26 09:37:27:159 [ADB] No connected devices have been detected
+2022-05-26 09:37:27:160 [ADB] Could not find online devices
+2022-05-26 09:37:27:160 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:27:160 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:27:385 [ADB] Getting connected devices
+2022-05-26 09:37:27:403 [ADB] No connected devices have been detected
+2022-05-26 09:37:27:403 [ADB] Could not find online devices
+2022-05-26 09:37:27:403 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:27:403 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:27:632 [ADB] Getting connected devices
+2022-05-26 09:37:27:652 [ADB] No connected devices have been detected
+2022-05-26 09:37:27:652 [ADB] Could not find online devices
+2022-05-26 09:37:27:652 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:27:652 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:27:881 [ADB] Getting connected devices
+2022-05-26 09:37:27:901 [ADB] No connected devices have been detected
+2022-05-26 09:37:27:901 [ADB] Could not find online devices
+2022-05-26 09:37:27:902 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:27:902 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:28:129 [ADB] Getting connected devices
+2022-05-26 09:37:28:149 [ADB] No connected devices have been detected
+2022-05-26 09:37:28:149 [ADB] Could not find online devices
+2022-05-26 09:37:28:149 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:28:149 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:28:378 [ADB] Getting connected devices
+2022-05-26 09:37:28:396 [ADB] No connected devices have been detected
+2022-05-26 09:37:28:396 [ADB] Could not find online devices
+2022-05-26 09:37:28:396 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:28:396 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:28:625 [ADB] Getting connected devices
+2022-05-26 09:37:28:646 [ADB] No connected devices have been detected
+2022-05-26 09:37:28:646 [ADB] Could not find online devices
+2022-05-26 09:37:28:646 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:28:646 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:28:888 [ADB] Getting connected devices
+2022-05-26 09:37:28:909 [ADB] No connected devices have been detected
+2022-05-26 09:37:28:909 [ADB] Could not find online devices
+2022-05-26 09:37:28:909 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:28:909 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:29:138 [ADB] Getting connected devices
+2022-05-26 09:37:29:159 [ADB] No connected devices have been detected
+2022-05-26 09:37:29:159 [ADB] Could not find online devices
+2022-05-26 09:37:29:159 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:29:160 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:29:387 [ADB] Getting connected devices
+2022-05-26 09:37:29:407 [ADB] No connected devices have been detected
+2022-05-26 09:37:29:407 [ADB] Could not find online devices
+2022-05-26 09:37:29:408 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:29:408 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:29:636 [ADB] Getting connected devices
+2022-05-26 09:37:29:655 [ADB] No connected devices have been detected
+2022-05-26 09:37:29:656 [ADB] Could not find online devices
+2022-05-26 09:37:29:656 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:29:656 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:29:883 [ADB] Getting connected devices
+2022-05-26 09:37:29:904 [ADB] No connected devices have been detected
+2022-05-26 09:37:29:904 [ADB] Could not find online devices
+2022-05-26 09:37:29:904 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:29:904 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:30:131 [ADB] Getting connected devices
+2022-05-26 09:37:30:150 [ADB] No connected devices have been detected
+2022-05-26 09:37:30:150 [ADB] Could not find online devices
+2022-05-26 09:37:30:150 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:30:150 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:30:379 [ADB] Getting connected devices
+2022-05-26 09:37:30:399 [ADB] No connected devices have been detected
+2022-05-26 09:37:30:399 [ADB] Could not find online devices
+2022-05-26 09:37:30:399 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:30:399 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:30:629 [ADB] Getting connected devices
+2022-05-26 09:37:30:652 [ADB] No connected devices have been detected
+2022-05-26 09:37:30:652 [ADB] Could not find online devices
+2022-05-26 09:37:30:653 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:30:653 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:30:878 [ADB] Getting connected devices
+2022-05-26 09:37:30:899 [ADB] No connected devices have been detected
+2022-05-26 09:37:30:899 [ADB] Could not find online devices
+2022-05-26 09:37:30:899 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:30:899 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:31:131 [ADB] Getting connected devices
+2022-05-26 09:37:31:193 [ADB] No connected devices have been detected
+2022-05-26 09:37:31:193 [ADB] Could not find online devices
+2022-05-26 09:37:31:193 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:31:194 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:31:425 [ADB] Getting connected devices
+2022-05-26 09:37:31:444 [ADB] No connected devices have been detected
+2022-05-26 09:37:31:444 [ADB] Could not find online devices
+2022-05-26 09:37:31:444 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:31:445 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:31:672 [ADB] Getting connected devices
+2022-05-26 09:37:31:695 [ADB] No connected devices have been detected
+2022-05-26 09:37:31:696 [ADB] Could not find online devices
+2022-05-26 09:37:31:696 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:31:696 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:31:947 [ADB] Getting connected devices
+2022-05-26 09:37:31:969 [ADB] No connected devices have been detected
+2022-05-26 09:37:31:969 [ADB] Could not find online devices
+2022-05-26 09:37:31:969 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:31:969 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:32:196 [ADB] Getting connected devices
+2022-05-26 09:37:32:217 [ADB] No connected devices have been detected
+2022-05-26 09:37:32:217 [ADB] Could not find online devices
+2022-05-26 09:37:32:217 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:32:217 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:32:444 [ADB] Getting connected devices
+2022-05-26 09:37:32:463 [ADB] No connected devices have been detected
+2022-05-26 09:37:32:463 [ADB] Could not find online devices
+2022-05-26 09:37:32:463 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:32:463 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:32:693 [ADB] Getting connected devices
+2022-05-26 09:37:32:713 [ADB] No connected devices have been detected
+2022-05-26 09:37:32:713 [ADB] Could not find online devices
+2022-05-26 09:37:32:714 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:32:714 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:32:939 [ADB] Getting connected devices
+2022-05-26 09:37:32:960 [ADB] No connected devices have been detected
+2022-05-26 09:37:32:960 [ADB] Could not find online devices
+2022-05-26 09:37:32:960 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:32:960 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:33:184 [ADB] Getting connected devices
+2022-05-26 09:37:33:204 [ADB] No connected devices have been detected
+2022-05-26 09:37:33:204 [ADB] Could not find online devices
+2022-05-26 09:37:33:204 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:33:204 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:33:431 [ADB] Getting connected devices
+2022-05-26 09:37:33:452 [ADB] No connected devices have been detected
+2022-05-26 09:37:33:452 [ADB] Could not find online devices
+2022-05-26 09:37:33:452 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:33:453 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:33:680 [ADB] Getting connected devices
+2022-05-26 09:37:33:698 [ADB] No connected devices have been detected
+2022-05-26 09:37:33:698 [ADB] Could not find online devices
+2022-05-26 09:37:33:699 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:33:699 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:33:931 [ADB] Getting connected devices
+2022-05-26 09:37:33:950 [ADB] No connected devices have been detected
+2022-05-26 09:37:33:950 [ADB] Could not find online devices
+2022-05-26 09:37:33:950 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:33:951 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:34:179 [ADB] Getting connected devices
+2022-05-26 09:37:34:199 [ADB] No connected devices have been detected
+2022-05-26 09:37:34:200 [ADB] Could not find online devices
+2022-05-26 09:37:34:200 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:34:200 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:34:425 [ADB] Getting connected devices
+2022-05-26 09:37:34:446 [ADB] No connected devices have been detected
+2022-05-26 09:37:34:446 [ADB] Could not find online devices
+2022-05-26 09:37:34:446 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:34:446 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:34:670 [ADB] Getting connected devices
+2022-05-26 09:37:34:691 [ADB] No connected devices have been detected
+2022-05-26 09:37:34:692 [ADB] Could not find online devices
+2022-05-26 09:37:34:692 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:34:692 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:34:920 [ADB] Getting connected devices
+2022-05-26 09:37:34:940 [ADB] No connected devices have been detected
+2022-05-26 09:37:34:940 [ADB] Could not find online devices
+2022-05-26 09:37:34:940 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:34:940 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:35:168 [ADB] Getting connected devices
+2022-05-26 09:37:35:186 [ADB] No connected devices have been detected
+2022-05-26 09:37:35:186 [ADB] Could not find online devices
+2022-05-26 09:37:35:186 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:35:187 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:35:461 [ADB] Getting connected devices
+2022-05-26 09:37:35:480 [ADB] No connected devices have been detected
+2022-05-26 09:37:35:480 [ADB] Could not find online devices
+2022-05-26 09:37:35:480 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:35:480 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:35:708 [ADB] Getting connected devices
+2022-05-26 09:37:35:727 [ADB] No connected devices have been detected
+2022-05-26 09:37:35:727 [ADB] Could not find online devices
+2022-05-26 09:37:35:727 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:35:727 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:36:017 [ADB] Getting connected devices
+2022-05-26 09:37:36:037 [ADB] No connected devices have been detected
+2022-05-26 09:37:36:038 [ADB] Could not find online devices
+2022-05-26 09:37:36:038 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:36:038 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:36:268 [ADB] Getting connected devices
+2022-05-26 09:37:36:289 [ADB] No connected devices have been detected
+2022-05-26 09:37:36:289 [ADB] Could not find online devices
+2022-05-26 09:37:36:290 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:36:290 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:36:516 [ADB] Getting connected devices
+2022-05-26 09:37:36:537 [ADB] No connected devices have been detected
+2022-05-26 09:37:36:537 [ADB] Could not find online devices
+2022-05-26 09:37:36:537 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:36:537 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:36:764 [ADB] Getting connected devices
+2022-05-26 09:37:36:784 [ADB] No connected devices have been detected
+2022-05-26 09:37:36:784 [ADB] Could not find online devices
+2022-05-26 09:37:36:784 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:36:784 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:37:012 [ADB] Getting connected devices
+2022-05-26 09:37:37:033 [ADB] No connected devices have been detected
+2022-05-26 09:37:37:033 [ADB] Could not find online devices
+2022-05-26 09:37:37:033 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:37:033 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:37:261 [ADB] Getting connected devices
+2022-05-26 09:37:37:281 [ADB] No connected devices have been detected
+2022-05-26 09:37:37:281 [ADB] Could not find online devices
+2022-05-26 09:37:37:281 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:37:281 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:37:507 [ADB] Getting connected devices
+2022-05-26 09:37:37:527 [ADB] No connected devices have been detected
+2022-05-26 09:37:37:528 [ADB] Could not find online devices
+2022-05-26 09:37:37:528 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:37:528 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:37:753 [ADB] Getting connected devices
+2022-05-26 09:37:37:775 [ADB] No connected devices have been detected
+2022-05-26 09:37:37:775 [ADB] Could not find online devices
+2022-05-26 09:37:37:775 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:37:775 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:38:002 [ADB] Getting connected devices
+2022-05-26 09:37:38:022 [ADB] No connected devices have been detected
+2022-05-26 09:37:38:022 [ADB] Could not find online devices
+2022-05-26 09:37:38:022 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:38:023 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:38:252 [ADB] Getting connected devices
+2022-05-26 09:37:38:275 [ADB] No connected devices have been detected
+2022-05-26 09:37:38:275 [ADB] Could not find online devices
+2022-05-26 09:37:38:275 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:38:275 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:38:502 [ADB] Getting connected devices
+2022-05-26 09:37:38:520 [ADB] No connected devices have been detected
+2022-05-26 09:37:38:520 [ADB] Could not find online devices
+2022-05-26 09:37:38:520 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:38:521 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:38:747 [ADB] Getting connected devices
+2022-05-26 09:37:38:766 [ADB] No connected devices have been detected
+2022-05-26 09:37:38:766 [ADB] Could not find online devices
+2022-05-26 09:37:38:766 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:38:766 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:38:989 [ADB] Getting connected devices
+2022-05-26 09:37:39:010 [ADB] No connected devices have been detected
+2022-05-26 09:37:39:010 [ADB] Could not find online devices
+2022-05-26 09:37:39:010 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:39:010 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:39:233 [ADB] Getting connected devices
+2022-05-26 09:37:39:254 [ADB] No connected devices have been detected
+2022-05-26 09:37:39:254 [ADB] Could not find online devices
+2022-05-26 09:37:39:254 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:39:254 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:39:480 [ADB] Getting connected devices
+2022-05-26 09:37:39:501 [ADB] No connected devices have been detected
+2022-05-26 09:37:39:501 [ADB] Could not find online devices
+2022-05-26 09:37:39:501 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:39:501 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:39:726 [ADB] Getting connected devices
+2022-05-26 09:37:39:744 [ADB] No connected devices have been detected
+2022-05-26 09:37:39:745 [ADB] Could not find online devices
+2022-05-26 09:37:39:745 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:39:745 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:39:975 [ADB] Getting connected devices
+2022-05-26 09:37:39:995 [ADB] No connected devices have been detected
+2022-05-26 09:37:39:996 [ADB] Could not find online devices
+2022-05-26 09:37:39:996 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:39:996 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:40:220 [ADB] Getting connected devices
+2022-05-26 09:37:40:241 [ADB] No connected devices have been detected
+2022-05-26 09:37:40:241 [ADB] Could not find online devices
+2022-05-26 09:37:40:241 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:40:242 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:40:473 [ADB] Getting connected devices
+2022-05-26 09:37:40:494 [ADB] No connected devices have been detected
+2022-05-26 09:37:40:494 [ADB] Could not find online devices
+2022-05-26 09:37:40:494 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:40:495 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:40:722 [ADB] Getting connected devices
+2022-05-26 09:37:40:742 [ADB] No connected devices have been detected
+2022-05-26 09:37:40:742 [ADB] Could not find online devices
+2022-05-26 09:37:40:742 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:40:743 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:40:970 [ADB] Getting connected devices
+2022-05-26 09:37:40:992 [ADB] No connected devices have been detected
+2022-05-26 09:37:40:992 [ADB] Could not find online devices
+2022-05-26 09:37:40:992 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:40:992 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:41:218 [ADB] Getting connected devices
+2022-05-26 09:37:41:238 [ADB] No connected devices have been detected
+2022-05-26 09:37:41:239 [ADB] Could not find online devices
+2022-05-26 09:37:41:239 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:41:239 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:41:465 [ADB] Getting connected devices
+2022-05-26 09:37:41:484 [ADB] No connected devices have been detected
+2022-05-26 09:37:41:484 [ADB] Could not find online devices
+2022-05-26 09:37:41:484 [ADB] Reconnecting adb (target offline)
+2022-05-26 09:37:41:484 [ADB] Running 'C:\Users\prani\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 reconnect offline'
+2022-05-26 09:37:41:717 [UiAutomator2] Deleting UiAutomator2 session
+2022-05-26 09:37:41:718 [BaseDriver] Event 'newSessionStarted' logged at 1653557861718 (15:07:41 GMT+0530 (India Standard Time))
+2022-05-26 09:37:41:759 [W3C] Encountered internal error running command: Error: Could not find a connected Android device in 20106ms.
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:266:13)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:18)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:759 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:760 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:760 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:760 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:760 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:760 [W3C]     at getDevices (C:\Users\prani\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:283:12)
+2022-05-26 09:37:41:781 [HTTP] <-- POST /wd/hub/session 500 22889 ms - 667
+2022-05-26 09:37:41:781 [HTTP] 

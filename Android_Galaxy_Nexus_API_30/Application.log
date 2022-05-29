@@ -1,0 +1,10 @@
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:12.809 ServerManager:20 - starting appium server
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:14.598 ServerManager:29 - Appium server started
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:14.639 DriverManager:28 - initializing Appium driver
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:14.664 PropertyManager:17 - loading config properties
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:14.675 CapabilitiesManager:18 - getting capabilities
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:14.677 CapabilitiesManager:34 - appUrl isC:\Users\prani\Projects\AppiumBDDFramework-Junit\src\test\resources\apps\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:21.988 DriverManager:40 - Driver is initialized
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:24.127 VideoManager:35 - video path: Android_Galaxy_Nexus_API_30\Videos\Login with invalid user name.mp4
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:25.584 VideoManager:35 - video path: Android_Galaxy_Nexus_API_30\Videos\Login with invalid password.mp4
+[Android_Galaxy_Nexus_API_30 INFO ] 2022-05-26 15:56:27.034 VideoManager:35 - video path: Android_Galaxy_Nexus_API_30\Videos\Login with valid user name and password.mp4
